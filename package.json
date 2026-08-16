@@ -1,0 +1,25 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --watch styles/main.scss:styles/main.css --source-map",
+    "sass:build": "sass styles/main.scss:styles/main.min.css --style=compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsabyrzhaslanuly/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iamsabyrzhaslanuly/positivus/issues"
+  },
+  "homepage": "https://github.com/iamsabyrzhaslanuly/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.102.0"
+  }
+}
